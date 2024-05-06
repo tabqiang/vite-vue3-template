@@ -1,0 +1,18 @@
+# 日志
+logs
+*.log
+
+# 依赖文件夹
+node_modules
+
+# 构建输出
+dist
+dist-ssr
+
+# 本地配置文件
+*.local
+
+# 编辑器和系统文件
+.vscode/*
+.idea
+.DS_Store
