@@ -1,0 +1,10 @@
+{
+    "home": {
+        "title": "首页",
+        "content": "欢迎来到首页"
+    },
+    "dashboard": {
+        "title": "仪表盘",
+        "content": "欢迎来到仪表盘"
+    }
+}

@@ -1,18 +1,20 @@
 <template>
-  <div>
-    <el-menu
-      :default-active="routePath"
-      class="el-menu-demo"
-      mode="horizontal"
-      router
-    >
-      <el-menu-item index="/">首页</el-menu-item>
-      <el-menu-item index="/user">用户列表</el-menu-item>
-    </el-menu>
     <div>
-      <router-view />
+        <el-menu
+            :default-active="routePath"
+            class="el-menu-demo"
+            mode="horizontal"
+            router
+        >
+            <el-menu-item index="/">{{ $t('home.title') }}</el-menu-item>
+            <el-menu-item index="/dashboard">{{
+                $t('dashboard.title')
+            }}</el-menu-item>
+        </el-menu>
+        <div>
+            <router-view />
+        </div>
     </div>
-  </div>
 </template>
 
 <script setup lang="ts">

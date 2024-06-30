@@ -1,0 +1,10 @@
+{
+    "home": {
+        "title": "Home",
+        "content": "Welcome to the home page"
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "content": "Welcome to the dashboard"
+    }
+}
